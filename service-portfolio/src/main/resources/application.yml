@@ -1,0 +1,29 @@
+spring:
+  application:
+    name: clean-architecture-ddd
+  jpa:
+    database: POSTGRESQL
+    show-sql: false
+    hibernate:
+      ddl-auto: update
+  datasource:
+    url: jdbc:postgresql://localhost:5432/clean-architecture-ddd
+    username: admin
+    password: admin
+    driverClassName: org.postgresql.Driver
+  sql:
+    init:
+      platform: postgres\
+  kafka:
+    producer:
+      key-serializer: org.apache.kafka.common.serialization.UUIDSerializer
+      value-serializer: org.springframework.kafka.support.serializer.JsonSerializer
+      bootstrap-servers: localhost:9092
+    template:
+      default-topic: log-event-topic
+
+
+logging:
+  level:
+    br.com.cleanarch: INFO
+    org.apache.kafka: OFF
