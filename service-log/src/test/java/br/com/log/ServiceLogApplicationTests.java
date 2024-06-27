@@ -1,10 +1,10 @@
-package br.com.portfolio;
+package br.com.log;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class ServicePortfolioApplicationTests {
+class ServiceLogApplicationTests {
 
     @Test
     void contextLoads() {

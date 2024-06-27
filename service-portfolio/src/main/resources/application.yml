@@ -7,13 +7,13 @@ spring:
     hibernate:
       ddl-auto: update
   datasource:
-    url: jdbc:postgresql://localhost:5432/clean-architecture-ddd
+    url: jdbc:postgresql://localhost:5432/portfolio
     username: admin
     password: admin
     driverClassName: org.postgresql.Driver
   sql:
     init:
-      platform: postgres\
+      platform: postgres
   kafka:
     producer:
       key-serializer: org.apache.kafka.common.serialization.UUIDSerializer

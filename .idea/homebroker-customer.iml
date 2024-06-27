@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <excludeFolder url="file://$MODULE_DIR$/.idea" />
+      <excludeFolder url="file://$MODULE_DIR$/service-portfolio/.gradle" />
+      <excludeFolder url="file://$MODULE_DIR$/service-portfolio/build" />
+      <excludeFolder url="file://$MODULE_DIR$/service-portfolio/gradle" />
+      <excludeFolder url="file://$MODULE_DIR$/lib" />
+      <excludeFolder url="file://$MODULE_DIR$/service-portfolio/out" />
+      <excludeFolder url="file://$MODULE_DIR$/service-portfolio/src/main/generated" />
+      <excludeFolder url="file://$MODULE_DIR$/service-portfolio/src/test/generated_tests" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>

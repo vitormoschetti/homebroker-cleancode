@@ -1,0 +1,6 @@
+spring:
+  application:
+    name: service-log
+
+server:
+  port: 8090
