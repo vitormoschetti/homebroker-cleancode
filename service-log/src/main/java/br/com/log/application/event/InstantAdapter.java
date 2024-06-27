@@ -1,4 +1,4 @@
-package br.com.log.application;
+package br.com.log.application.event;
 
 import com.google.gson.JsonDeserializationContext;
 import com.google.gson.JsonDeserializer;

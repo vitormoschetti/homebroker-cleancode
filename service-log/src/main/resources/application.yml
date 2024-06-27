@@ -10,5 +10,16 @@ spring:
       default-topic: log-event-topic
     listener:
       concurrency: 5
+
 server:
   port: 8090
+
+cloud:
+  aws:
+    dynamodb:
+      endpoint: http://localhost:4566
+    credentials:
+      access-key: admin
+      secret-key: admin
+    region:
+      static: sa-east-1

@@ -1,5 +1,8 @@
-package br.com.log.application;
+package br.com.log.application.consumer;
 
+import br.com.log.application.event.Event;
+import br.com.log.application.event.InstantAdapter;
+import br.com.log.application.event.UUIDAdapter;
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 import lombok.extern.slf4j.Slf4j;
@@ -24,6 +27,7 @@ public class ConsumerEvent {
         final var event = gson.fromJson(record.value(), Event.class);
 
         log.info("M=ConsumerEvent -> key: {}, record: {}", record.key(), event);
+
     }
 
 }
