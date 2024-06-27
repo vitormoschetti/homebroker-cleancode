@@ -6,7 +6,8 @@
 - [x] *Repositories*
 - [x] *Domain events*
 - [x] *Kafka producer (events implementation)*
-- [ ] *New Service - Service Notification - Kafka listeners - first version only logs events*
+- [x] *New Service - Service Notification - Kafka listeners - first version only logs events*
+- [ ] *Save events in NoSQL Dynamo*
 - [ ] *Docker to up all*
 - [ ] *New Service  - Service Asset Broker - use aws with localstack*
 - [ ] *Metrics Grafana, Prometheus, OpenTelemetry*

@@ -1,6 +1,14 @@
 spring:
   application:
     name: service-log
-
+  kafka:
+    consumer:
+      bootstrap-servers: localhost:9092
+      key-deserializer: org.apache.kafka.common.serialization.UUIDDeserializer
+      value-deserializer: org.apache.kafka.common.serialization.StringDeserializer
+    template:
+      default-topic: log-event-topic
+    listener:
+      concurrency: 5
 server:
   port: 8090
