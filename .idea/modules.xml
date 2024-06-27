@@ -4,7 +4,6 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/homebroker-customer.iml" filepath="$PROJECT_DIR$/.idea/homebroker-customer.iml" />
       <module fileurl="file://$PROJECT_DIR$/service-log/service-log.iml" filepath="$PROJECT_DIR$/service-log/service-log.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/service-log.main.iml" filepath="$PROJECT_DIR$/.idea/modules/service-log.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/service-portfolio.iml" filepath="$PROJECT_DIR$/.idea/modules/service-portfolio.iml" />
     </modules>
   </component>
